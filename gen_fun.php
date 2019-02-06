@@ -9,7 +9,9 @@ function print_range_of_values($min_val, $max_val)
     
     foreach (print_range_of_values(1, 10) as $key=>$value) {
         
+       echo "$key => $value", PHP_EOL;
     }
+    
 }
 
 
